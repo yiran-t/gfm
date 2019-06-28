@@ -1,0 +1,153 @@
+{
+  "list": [
+    {
+      "count": "0",
+      "suggestWordType": "SEARCH_HISTORY",
+      "url": "http://list.jiuxian.com/search.htm?key=aaa",
+      "word": "aaa"
+    },
+    {
+      "count": "1",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=aoc",
+      "word": "aoc"
+    },
+    {
+      "count": "2",
+      "suggestWordType": "SEARCH_KEYWORD",
+      " url": "http://list.jiuxian.com/search.htm?key=安利",
+      "word": "安利"
+    },
+    {
+      "count": "3",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=aoc红酒",
+      "word": "aoc红酒"
+    },
+    {
+      "count": "4",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=aoc牌",
+      "word": "aoc牌"
+    },
+    {
+      "count": "5",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=澳大利亚",
+      "word": "奥奥利亚"
+    },
+    {
+      "count": "6",
+      "suggestWordType": "SEARCH_KEYWORD",
+      "url": "http://list.jiuxian.com/search.htm?key=奔富",
+      "word": "奔富"
+    }
+  ],
+  "con": [
+    {
+      "id": "1",
+      "src": "img/fk1.jpg",
+      "title": "52°酒鬼原浆酒500ml",
+      "alt": "52°酒鬼原浆酒500ml",
+      "txt": "52°酒鬼原浆酒500ml",
+      "price": "239",
+      "src1": "img/2.jpg",
+      "pingfen": "4"
+    },
+    {
+      "id": "2",
+      "src": "img/fk2.jpg",
+      "title": "42°洋河特曲（珠光蓝）500ml（双瓶装）",
+      "alt": "42°洋河特曲（珠光蓝）500ml（双瓶装）",
+      "txt": "42°洋河特曲（珠光蓝）500ml（双瓶装）",
+      "price": "439",
+      "src1": "img/2.jpg",
+      "pingfen": "5"
+    },
+    {
+      "id": "3",
+      "src": "img/fk1.jpg",
+      "title": "52°酒鬼原浆酒500ml",
+      "alt": "52°酒鬼原浆酒500ml",
+      "txt": "52°酒鬼原浆酒500ml",
+      "price": "239",
+      "src1": "img/2.jpg",
+      "pingfen": "4"
+    },
+    {
+      "id": "4",
+      "src": "img/fk2.jpg",
+      "title": "42°洋河特曲（珠光蓝）500ml（双瓶装）",
+      "alt": "42°洋河特曲（珠光蓝）500ml（双瓶装）",
+      "txt": "42°洋河特曲（珠光蓝）500ml（双瓶装）",
+      "price": "439",
+      "src1": "img/2.jpg",
+      "pingfen": "5"
+    },
+    {
+      "id": "5",
+      "src": "img/fk1.jpg",
+      "title": "52°酒鬼原浆酒500ml",
+      "alt": "52°酒鬼原浆酒500ml",
+      "txt": "52°酒鬼原浆酒500ml",
+      "price": "239",
+      "src1": "img/2.jpg",
+      "pingfen": "4"
+    },
+    {
+      "id": "6",
+      "src": "img/fk2.jpg",
+      "title": "42°洋河特曲（珠光蓝）500ml（双瓶装）",
+      "alt": "42°洋河特曲（珠光蓝）500ml（双瓶装）",
+      "txt": "42°洋河特曲（珠光蓝）500ml（双瓶装）",
+      "price": "439",
+      " url": "img/2.jpg",
+      "pingfen": "3"
+    },
+    {
+      "id": "7",
+      "src": "img/fk1.jpg",
+      "title": "52°酒鬼原浆酒500ml",
+      "alt": "52°酒鬼原浆酒500ml",
+      "txt": "52°酒鬼原浆酒500ml",
+      "price": "239",
+      " url": "img/2.jpg",
+      "pingfen": "5"
+    },
+    {
+      "id": "8",
+      "src": "img/fk2.jpg",
+      "title": "42°洋河特曲（珠光蓝）500ml（双瓶装）",
+      "alt": "42°洋河特曲（珠光蓝）500ml（双瓶装）",
+      "txt": "42°洋河特曲（珠光蓝）500ml（双瓶装）",
+      "price": "439",
+      " url": "img/2.jpg",
+      "pingfen": "3"
+    },
+    {
+      "id": "9",
+      "src": "img/fk1.jpg",
+      "title": "52°酒鬼原浆酒500ml",
+      "alt": "52°酒鬼原浆酒500ml",
+      "txt": "52°酒鬼原浆酒500ml",
+      "price": "239",
+      " url": "img/2.jpg",
+      "pingfen": "5"
+    },
+    {
+      "id": "10",
+      "src": "img/fk2.jpg",
+      "title": "42°洋河特曲（珠光蓝）500ml（双瓶装）",
+      "alt": "42°洋河特曲（珠光蓝）500ml（双瓶装）",
+      "txt": "42°洋河特曲（珠光蓝）500ml（双瓶装）",
+      "price": "439",
+      " url": "img/2.jpg",
+      "pingfen": "4"
+    }
+  ],
+  "tuijian": [
+    { "id": "11", "src": "img/lb10.jpg" },
+    { "id": "12", "src": "img/fk2.jpg" },
+    { "id": "13", "src": "img/fk1.jpg" }
+  ]
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title></title>
+  <script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/cookie.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/cart.js" type="text/javascript" charset="utf-8"></script>
+  <link rel="stylesheet" href="./css/head.css">
+  <link rel="stylesheet" href="./css/foot.css">
+  <link rel="stylesheet" href="./css/cart.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <!-- 头部开始 -->
+  <div id="head"></div>
+  <div class="Tu">
+    <a href="http://shop.jiuxian.com/brand-402/activity-3522.htm?source=1"><img src="./imgs/top.jpg" /></a>
+  </div>
+  <!--大图结束-->
+
+  <div class="sousuo">
+    <div class="sousuoLogo">
+      <p class="jxwLogo">
+        <a href="#" target="_blank"><img alt="酒仙网" src="img/logo.png" width="137" height="65"></a>
+      </p>
+      <p>
+        <a class="sdlogogif" href="#" target="_blank"><img alt="" src="imgs/regist/regist2.jpg" width="110"
+            height="65"></a>
+      </p>
+    </div>
+
+    <div class="sousuokuang">
+      <div class="sskuang">
+        <form action="" method="get">
+          <input id="wd" class="ss" type="text" name="key" placeholder="a" maxlength="50" autocomplete="off">
+          <input class="ssbtn" type="submit" name="" value="搜&nbsp;索">
+        </form>
+        <div class="ssCon" id="ssCon">
+          <ul>
+
+          </ul>
+        </div>
+      </div>
+      <div class="hotWords">
+        <p>
+          <a href="./productList.html" target="_blank">茅台</a>
+          <a href="./productList.html" target="_blank">五粮液</a>
+          <a href="./productList.html" target="_blank">酒鬼</a>
+          <a href="./productList.html" target="_blank">拉菲</a>
+          <a href="./productList.html" target="_blank">郎酒</a>
+          <a href="./productList.html" target="_blank">黄尾袋鼠</a>
+          <a href="./productList.html" target="_blank">水井坊</a>
+          <a href="./productList.html" target="_blank">泸州老窖</a>
+          <a href="./productList.html" target="_blank">奔富</a>
+          <a href="./productList.html" target="_blank">董酒</a>
+        </p>
+      </div>
+    </div>
+    <div class="ssProtect"></div>
+  </div>
+  <!--搜索结束-->
+  <!-- 头部删除 -->
+  <!-- 中间部分 -->
+  <div id="mainC">
+    全选<input type="checkbox" id="checkAll" />
+    反选<input type="checkbox" id="checkOther" />
+    <ul id="cartList"></ul>
+    <div id="totalPrice"></div>
+  </div>
+  <!-- 尾部开始 -->
+  <div id="foot"></div>
+  <!-- 尾部结束· -->
+  <script>
+    var cart = new Cart();
+    cart.showData("cartList");
+  </script>
+</body>
+
+</html>

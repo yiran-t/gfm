@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+#mainC {
+  width: 1200px;
+  background: pink;
+  height: 800px;
+  margin: 0 auto;
+}
+
+#mainC li {
+  width: 900px;
+  border: 1px solid #000;
+  margin: 20px auto;
+  background: yellowgreen;
+  display: flex;
+}
+
+#mainC li .checkBox {
+  width: 10px;
+  height: 10px;
+  margin-top: 70px;
+  margin-left: 10px;
+  float: left;
+}
+
+#mainC li img {
+  width: 140px;
+  height: 140px;
+  margin-top: 10px;
+  margin-left: 20px;
+  float: left;
+}
+
+#mainC li .idTitle {
+  width: 300px;
+  height: 60px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 80px;
+  font-size: 20px;
+}
+
+#mainC li .idBox {
+  width: 300px;
+  height: 60px;
+  text-align: center;
+  margin-top: 82px;
+  font-size: 20px;
+}
+
+#mainC li .idBox input {
+  width: 50px;
+  text-align: center;
+}
+
+#mainC li .idBox span {
+  margin-left: 16px;
+}

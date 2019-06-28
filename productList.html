@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>商品列表</title>
+  <script src="./js/jquery-1.11.0.js"></script>
+  <script src="./js/productList.js"></script>
+  <link rel="stylesheet" href="./css/productList.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/head.css" />
+  <link rel="stylesheet" type="text/css" href="css/foot.css" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+</head>
+
+<body>
+  <div id="head"></div>
+  <div class="Tu">
+    <a href="http://shop.jiuxian.com/brand-402/activity-3522.htm?source=1"><img src="./imgs/top.jpg" /></a>
+  </div>
+  <!--大图结束-->
+
+  <div class="sousuo">
+    <div class="sousuoLogo">
+      <p class="jxwLogo">
+        <a href="#" target="_blank"><img alt="酒仙网" src="img/logo.png" width="137" height="65"></a>
+      </p>
+      <p>
+        <a class="sdlogogif" href="#" target="_blank"><img alt="" src="imgs/regist/regist2.jpg" width="110"
+            height="65"></a>
+      </p>
+    </div>
+
+    <div class="sousuokuang">
+      <div class="sskuang">
+        <form action="" method="get">
+          <input id="wd" class="ss" type="text" name="key" placeholder="a" maxlength="50" autocomplete="off">
+          <input class="ssbtn" type="submit" name="" value="搜&nbsp;索">
+        </form>
+        <div class="ssCon" id="ssCon" style="display:none">
+          <ul></ul>
+        </div>
+      </div>
+      <div class="hotWords">
+        <p>
+          <a href="./productList.html" target="_blank">茅台<s></s></a>
+          <a href="./productList.html" target="_blank">五粮液<s></s></a>
+          <a href="./productList.html" target="_blank">酒鬼<s></s></a>
+          <a href="./productList.html" target="_blank">拉菲<s></s></a>
+          <a href="./productList.html" target="_blank">郎酒<s></s></a>
+          <a href="./productList.html" target="_blank">黄尾袋鼠<s></s></a>
+          <a href="./productList.html" target="_blank">水井坊<s></s></a>
+          <a href="./productList.html" target="_blank">泸州老窖<s></s></a>
+          <a href="./productList.html" target="_blank">奔富<s></s></a>
+          <a href="./productList.html" target="_blank">董酒<s></s></a>
+        </p>
+      </div>
+    </div>
+    <div class="ssProtect"></div>
+  </div>
+  <!--搜索结束-->
+  <div id="MCon">
+    <!-- 品牌begin -->
+    <div class="brand">
+      <div class="left">
+        <p>品牌</p>
+      </div>
+      <!-- 通过ajax 放数据 -->
+      <div class="right">
+        <ul class="letter">
+          <li>全部品牌</li>
+          <li>A</li>
+          <li>B</li>
+          <li>C</li>
+        </ul>
+        <ul class="brandList"></ul>
+      </div>
+      <!-- 放数据 结束 -->
+    </div>
+    <hr />
+    <!-- 品牌end -->
+
+    <!-- 产区begin -->
+    <div class="area">
+      <div class="left2">产区</div>
+      <div class="right2">
+        <ul class="areaList">
+          <li><a href="./index.html" title="四川">四川</a></li>
+          <li><a href="./index.html" title="贵州">贵州</a></li>
+          <li><a href="./index.html" title="山西">山西</a></li>
+          <li><a href="./index.html" title="北京">北京</a></li>
+          <li><a href="./index.html" title="陕西">陕西</a></li>
+          <li><a href="./index.html" title="河北">河北</a></li>
+          <li><a href="./index.html" title="江苏">江苏</a></li>
+          <li><a href="./index.html" title="河南">河南</a></li>
+          <li><a href="./index.html" title="山东">山东</a></li>
+          <li><a href="./index.html" title="安徽">安徽</a></li>
+          <li><a href="./index.html" title="内蒙古">内蒙古</a></li>
+          <li><a href="./index.html" title="湖北">湖北</a></li>
+          <li><a href="./index.html" title="湖南">湖南</a></li>
+          <li><a href="./index.html" title="新疆">新疆</a></li>
+          <li><a href="./index.html" title="江西">江西</a></li>
+          <li><a href="./index.html" title="福建">福建</a></li>
+          <li><a href="./index.html" title="青海">青海</a></li>
+          <li><a href="./index.html" title="重庆">重庆</a></li>
+          <li><a href="./index.html" title="广西">广西</a></li>
+          <li><a href="./index.html" title="辽宁">辽宁</a></li>
+          <li><a href="./index.html" title="甘肃">甘肃</a></li>
+          <li><a href="./index.html" title="云南">云南</a></li>
+          <li><a href="./index.html" title="广东">广东</a></li>
+          <li><a href="./index.html" title="西藏">西藏</a></li>
+          <li><a href="./index.html" title="黑龙江">黑龙江</a></li>
+          <li><a href="./index.html" title="海南">海南</a></li>
+          <li><a href="./index.html" title="天津">天津</a></li>
+          <li><a href="./index.html" title="吉林">吉林</a></li>
+          <li><a href="./index.html" title="宁夏">宁夏</a></li>
+          <li><a href="./index.html" title="上海">上海</a></li>
+          <li><a href="./index.html" title="浙江">浙江</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <!-- 产区end -->
+
+    <!-- 类型begin -->
+    <div class="type">
+      <div class="left3">
+        <p>类型</p>
+      </div>
+      <div class="right3">
+        <ul class="typeList">
+          <li class="first "><a href="index.html" title="浓香型">浓香型</a>
+          </li>
+          <li class="first "><a href="index.html" title="酱香型">酱香型</a>
+          </li>
+          <li class="first "><a href="index.html" title="清香型">清香型</a>
+          </li>
+          <li class="first "><a href="index.html" title="其他">其他</a>
+          </li>
+          <li class="first "><a href="index.html" title="兼香型">兼香型</a>
+          </li>
+          <li class="first "><a href="index.html" title="凤香型">凤香型</a>
+          </li>
+          <li class="first "><a href="index.html" title="馥郁香型">馥郁香型</a>
+          </li>
+          <li class="first "><a href="index.html" title="董香型">董香型</a>
+          </li>
+          <li class="first "><a href="index.html" title="无">无</a></li>
+          <li class="first "><a href="index.html" title="特香型">特香型</a>
+          </li>
+          <li class="first "><a href="index.html" title="米香型">米香型</a>
+          </li>
+          <li class="first "><a href="index.html" title="老白干香型">老白干香型</a></li>
+          <li class="first "><a href="index.html" title="芝麻香型">芝麻香型</a>
+          </li>
+          <li class="first "><a href="index.html" title="復合香">復合香</a>
+          </li>
+          <li class="first "><a href="index.html" title="豉香型">豉香型</a>
+          </li>
+          <li class="first "><a href="index.html" title="青稞清香型">青稞清香型</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <!-- 类型end -->
+    <div class="more">
+      <div class="left4">
+        <p>更多选项</p>
+      </div>
+      <div class="right4">
+        <ul class="r4_top">
+          <li><a href="javascript:void(0)">酒精度<i class="glyphicon glyphicon-chevron-down"></i></a></li>
+          <li><a href="javascript:void(0)">净含量<i class="glyphicon glyphicon-chevron-down"></i></a></li>
+          <li><a href="javascript:void(0)">价格<i class="glyphicon glyphicon-chevron-down"></i></a></li>
+        </ul>
+        <!-- 三个ul   消失  隐藏 
+        第一个 -->
+        <div class="jiu">
+          <ul class="jiuList">
+            <li><a href="index.html">35度以下</a></li>
+            <li><a href="index.html">35-39度</a></li>
+            <li><a href="index.html">40-49度</a></li>
+            <li><a href="index.html">50度以上</a></li>
+          </ul>
+        </div>
+
+        <!-- 第二个 -->
+        <div class="liang">
+          <ul class="liangList">
+            <li><a href="index.html">375ml以下</a></li>
+            <li><a href="index.html">375ml-500ml</a></li>
+            <li><a href="index.html">500ml-750ml</a></li>
+            <li><a href="index.html">750ml-1L</a></li>
+            <li><a href="index.html">1L-1.5L</a></li>
+            <li><a href="index.html">1.5L以上</a></li>
+          </ul>
+        </div>
+
+        <!-- 价格 -->
+        <div id="price">
+          <ul class="priceList">
+            <li><a href="index.html">1-99元</a></li>
+            <li><a href="index.html">100-299元</a></li>
+            <li><a href="index.html">300-599元</a></li>
+            <li><a href="index.html">600-999元</a></li>
+            <li><a href="index.html">1000-1999元</a></li>
+            <li><a href="index.html">2000元以上</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <!-- 通用分类end -->
+  </div>
+  <!--mainCon  结束  -->
+
+  <!-- 第二部分 商品获取   开始  一个li 250  440 -->
+  <div id="wrap">
+    <ul class="pListUl">
+      <!-- <li>111</li> -->
+    </ul>
+  </div>
+
+  <!-- 第二部分 商品获取   结束  -->
+
+  <div id="foot"></div>
+  <script>
+    // var cart = new Cart();
+
+  </script>
+</body>
+
+</html>

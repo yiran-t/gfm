@@ -1,0 +1,541 @@
+.footerTop{width: 1200px;
+    margin: 0 auto;
+    height: 84px;
+    border-bottom: 1px solid #494949}
+.footerContact{float: left;
+                height: 40px;
+                line-height: 40px;
+                padding: 22px 0px;
+                b{
+                    font-size: 24px;
+                    color: #c00;
+                    margin-right: 25px;
+                }
+                span{
+                    font-size: 14px;
+                    color: #fff;
+                    margin-right: 8px;
+                }
+                
+              }
+.footerTopRight{    
+    width: 400px;
+                    float: right;
+                    height: 32px;
+                    padding: 26px 0;
+                    .ftRight-tit{
+                                width: 110px;
+                                float: left;
+                                line-height: 32px;
+                                color: rgb(255, 255, 255);
+                                font-family: 微软雅黑;
+                                padding-right: 10px;
+                    }
+                    .ftRight-form{
+                                    float: left;
+                                    width: 240px;
+                                    height: 30px;
+                                    border: 1px solid #494949;
+                                    position: relative;
+                                    z-index: 99;
+                                    input{
+                                            width: 190px;
+                                            height: 30px;
+                                            line-height: 30px;
+                                            padding: 0 6px;
+                                            background: 0;
+                                            border: 0;
+                                            float: left;
+                                            color: #666;
+                                            outline: 0;
+                                    }
+                    }
+                }
+
+
+
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "microsoft yahei";
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6F7479;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.register-area {
+    height: 150px;
+    width: 100%;
+    padding: 30px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.register-area-bg {
+    background: url(../img/register-v3.jpg) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 225px;
+    z-index: 1;
+}
+
+.register-area-wrapper {
+    position: relative;
+    z-index: 2;
+    max-width: 632px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.register-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -20px;
+    font-size: 28px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.register-area .cui-btn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -20px;
+    border-color: #f66f6a;
+    background-color: #f66f6a;
+    color: #fff;
+    height: 48px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+    line-height: 46px;
+    padding: 0 30px;
+    border: solid 1px transparent;
+    border-radius: 2px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    transition: .2s;
+}
+
+.register-area .cui-btn:hover {
+    box-shadow: 0 8px 16px rgba(246, 111, 106, 0.5);
+}
+
+
+/* footer-service */
+
+.footer-service {
+    background: #393a41;
+    color: #c3c5c6;
+}
+
+.footer-wrapper {
+    position: relative;
+    max-width: 1200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-service-wrapper>ul {
+    overflow: hidden;
+}
+
+.footer-service-wrapper>ul>li {
+    float: left;
+    width: 16.6666%;
+}
+
+.footer-service-wrapper>ul>li>a {
+    display: block;
+    position: relative;
+    height: 100px;
+    padding-left: 55px;
+    padding-top: 28px;
+}
+
+.footer-service-wrapper>ul>li>a>i {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    background-size: 100% 100%;
+}
+
+.footer-icon-support {
+    background: url(../img/support.svg);
+}
+
+.footer-icon-unsub {
+    background: url(../img/unsub.svg);
+}
+
+.footer-icon-record {
+    background: url(../img/record.svg);
+}
+
+.footer-icon-pay {
+    background: url(../img/pay.svg);
+}
+
+.footer-icon-feedback {
+    background: url(../img/feedback.svg);
+}
+
+.footer-icon-vip {
+    background: url(../img/vip.svg);
+}
+
+.footer-service-wrapper>ul>li>a>h2 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.footer-service-wrapper>ul>li>a>p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #A0A2A8;
+}
+
+
+/* footer-nav */
+
+#footer {
+    color: rgba(255, 255, 255, .7);
+    background: #3D3E49;
+}
+
+.footer-nav {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background: #3D3E49;
+    overflow: hidden;
+}
+
+.footer-nav-menus {
+    float: left;
+    width: 73.89830508474576%;
+    padding-right: 30px;
+}
+
+.footer-nav-menus:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer-nav-menus dl {
+    float: left;
+    width: 25%;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.footer-nav-menus dl dt {
+    margin-bottom: 20px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.footer-nav-menus dl dd {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.footer-nav-menus .split-line {
+    max-width: 120px;
+    border-top: solid 1px #666;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: .5;
+}
+
+.footer-nav-submenus {
+    float: left;
+    width: 26.101694915254237%;
+    border-left: solid 1px rgba(102, 102, 102, .5);
+}
+
+.footer-nav-submenus-inner {
+    float: right;
+    width: 257px;
+}
+
+.footer-nav-contact {
+    height: 160px;
+}
+
+.footer-nav-contact-phone {
+    text-align: left;
+}
+
+.footer-nav-contact-phone>h1 {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.footer-nav-contact-phone>p {
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.footer-nav-contact-phone ul {
+    position: relative;
+    font-size: 0;
+}
+
+.footer-nav-contact-phone ul>li {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.footer-nav-contact-phone ul a {
+    display: block;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+.footer-nav-contact-phone ul>li:nth-child(2n + 1) {
+    width: 100px;
+}
+
+
+/*浮动出现email*/
+
+.foot-email {
+    position: absolute;
+    top: 24px;
+    left: 0;
+    display: none;
+    margin-top: 5px;
+    padding-left: 5px;
+    width: 195px;
+    height: 30px;
+    border: 1px #fff solid;
+    border-radius: 3px;
+    background: #fff;
+    color: #333;
+    line-height: 30px;
+    font-size: 12px
+}
+
+.foot-email p:before {
+    position: absolute;
+    display: block;
+    margin-top: -20px;
+    border: 10px solid;
+    border-color: transparent transparent #fff;
+    content: ""
+}
+
+.foot-email-right p:before {
+    right: 30px;
+}
+
+.footer-nav-contact-phone ul>li:hover {
+    height: 60px;
+}
+
+.footer-nav-contact-phone ul>li:hover .foot-email {
+    display: block;
+}
+
+.footer-nav-contact-phone ul>li:hover>a {
+    color: white;
+}
+
+.footer-nav-about {
+    display: inline-block;
+    text-align: left;
+    font-size: 0;
+}
+
+.footer-nav-about dt {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.footer-nav-about dd {
+    display: inline-block;
+    text-align: left;
+}
+
+.footer-nav-about dd+dd {
+    margin-left: 20px;
+}
+
+.footer-nav-about dd.footer-nav-about-dd-mb {
+    display: none;
+}
+
+.footer-nav-about i {
+    display: none;
+}
+
+.footer-nav-submenus-link {
+    display: block;
+    font-size: 12px;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+
+.footer-nav-submenus-qr {
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-size: 100% 100%;
+}
+
+.qr-wechat {
+    background-image: url(../img/qr-wechat.jpg);
+}
+
+.qr-weibo {
+    background-image: url(../img/qr-weibo.jpg);
+}
+
+.qr-zhihu {
+    background-image: url(../img/qr-zhihu.png);
+}
+
+.footer-nav-other-link {
+    clear: both;
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+.footer-nav-other-link span,
+.footer-nav-other-link a {
+    float: left;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.footer-nav-other-link span {
+    margin-right: 40px;
+    color: white;
+}
+
+.footer-nav-other-link a {
+    margin-right: 24px;
+}
+
+
+/*版权*/
+
+.footer-copyright-container {
+    background: #3D3E49;
+    border-top: solid 1px #252B3A;
+}
+
+.footer-copyright-wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-copyright {
+    float: left;
+    font-size: 0;
+}
+
+.footer-copyright span,
+.footer-copyright a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.footer-law {
+    float: right;
+    overflow: hidden;
+    font-size: 0;
+}
+
+.footer-law>li {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.footer-law>li+li:before {
+    content: "|";
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-record {
+    clear: both;
+    font-size: 0;
+}
+
+.footer-record i {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    vertical-align: middle;
+    background-size: 100% 100%;
+}
+
+.footer-icon-record1 {
+    background-image: url(../img/a6.png);
+}
+
+.footer-icon-record2 {
+    background-image: url(../img/a7.png);
+}
+
+.footer-record i a {
+    display: block;
+    width: 18px;
+    height: 18px;
+}
+
+.footer-record span {
+    font-size: 12px;
+    line-height: 24px;
+    vertical-align: middle;
+}

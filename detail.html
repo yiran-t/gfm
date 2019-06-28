@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>详情页</title>
+
+	<link rel="stylesheet" type="text/css" href="css/head.css" />
+	<link rel="stylesheet" type="text/css" href="css/foot.css" />
+	<link rel="stylesheet" type="text/css" href="css/detail.css" />
+	<!-- <link rel="stylesheet" href="./css/index.css"> -->
+	<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/detail.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/cookie.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+
+<body>
+	<div id="head"></div>
+
+	<div class="sousuo">
+		<div class="sousuoLogo">
+			<p class="jxwLogo">
+				<a href="#" target="_blank"><img alt="酒仙网" src="img/logo.png" width="137" height="65"></a>
+			</p>
+			<p>
+				<a class="sdlogogif" href="#" target="_blank"><img alt="" src="img/logo1.gif" width="110"
+						height="65"></a>
+			</p>
+		</div>
+
+		<div class="sousuokuang">
+			<div class="sskuang">
+				<form action="" method="get">
+					<input id="wd" class="ss" type="text" name="key" placeholder="400周年庆" maxlength="50"
+						autocomplete="off">
+					<input class="ssbtn" type="submit" name="" value="搜&nbsp;索">
+				</form>
+				<div class="ssCon" id="ssCon">
+					<ul>
+
+					</ul>
+				</div>
+			</div>
+			<div class="hotWords">
+				<p>
+					<a href="#" target="_blank">茅台<s></s></a>
+					<a href="#" target="_blank">五粮液<s></s></a>
+					<a href="#" target="_blank">酒鬼<s></s></a>
+					<a href="#" target="_blank">拉菲<s></s></a>
+					<a href="#" target="_blank">郎酒<s></s></a>
+					<a href="#" target="_blank">黄尾袋鼠<s></s></a>
+					<a href="#" target="_blank">水井坊<s></s></a>
+					<a href="#" target="_blank">泸州老窖<s></s></a>
+					<a href="#" target="_blank">奔富<s></s></a>
+					<a href="#" target="_blank">董酒<s></s></a>
+				</p>
+			</div>
+		</div>
+		<div class="ssProtect"></div>
+	</div>
+	<!--搜索结束-->
+	<div class="navWrap">
+		<div class="nav">
+			<div class="navfl">
+				<h2>全部商品列表</h2>
+				<ul class="categoryBox">
+					<li class="catItem" id="_nowactstr1">
+						<div class="catItemCon" name="__home_fenleiyijian">
+							<h3><a target="_blank" href="#"></a>一键选酒</h3>
+							<div class="categoryCon">
+								<p>
+									<a href="#" target="_blank" rel="nofollow">整箱购</a>
+									<a href="#" target="_blank" rel="nofollow">家乡名酒</a>
+									<a href="#" target="_blank" rel="nofollow">年份老酒</a>
+
+								</p>
+								<p>
+									<a href="#" target="_blank" rel="nofollow">地域名酒</a>
+									<a href="#" target="_blank" rel="nofollow">值得买</a>
+									<a href="#" target="_blank" rel="nofollow">实惠大坛</a>
+									<a href="#" target="_blank" rel="nofollow">有礼有面</a>
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<li class="catItem bg" id="_nowactstr2">
+						<div class="catItemCon" name="__home_fenleibai">
+							<h3 name="tagH" pathname="白酒"><a target="_blank" href="#">白酒</a></h3>
+							<div class="categoryCon">
+								<p>
+									<a href="#" target="_blank">茅台</a>
+									<a href="#" target="_blank" class="on">五粮液</a>
+									<a href="#" target="_blank" class="on">酒鬼</a>
+									<a href="#" target="_blank">汾酒</a>
+								</p>
+								<p>
+									<a href="#" target="_blank">浓香型</a>
+									<a href="#" target="_blank" class="on">酱香型</a>
+									<a href="#" target="_blank">贵州</a>
+									<a href="#" target="_blank">四川</a>
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<li class="catItem" id="_nowactstr3">
+						<div class="catItemCon" name="__home_fenleipu">
+							<h3 name="tagH" pathname="葡萄酒" <a target="_blank" href="#">葡萄酒</a></h3>
+
+							<div class="categoryCon">
+								<p>
+									<a href="#" target="_blank">法国</a>
+									<a href="#" target="_blank">澳大利亚</a>
+									<a href="#" target="_blank">西班牙</a>
+									<a href="#" target="_blank">智利</a>
+								</p>
+								<p>
+									<a href="#" target="_blank">中国</a>
+									<a href="#" target="_blank" class="on">拉菲</a>
+									<a href="#" target="_blank">奔富</a>
+									<a href="#" target="_blank">黄尾袋鼠</a>
+								</p>
+							</div>
+						</div>
+					</li>
+					<li class="catItem bg" id="_nowactstr4">
+						<div class="catItemCon" name="__home_fenleiyang">
+							<h3 name="tagH" pathname="洋酒"><a target="_blank" href="#">洋酒</a></h3>
+							<div class="categoryCon">
+								<p>
+									<a href="#" target="_blank" class="on">马爹利</a>
+									<a href="#" target="_blank" class="on">人头马</a>
+									<a href="#" target="_blank">尊尼获加</a>
+									<a href="#" target="_blank">芝华士</a>
+								</p>
+								<p>
+									<a href="#" target="_blank" class="on">轩尼诗</a>
+									<a href="#" target="_blank" class="on">绝对</a>
+									<a href="#" target="_blank">百龄坛</a>
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<li class="catItem" id="_nowactstr5">
+						<div class="catItemCon" name="__home_fenleipi">
+							<h3 name="tagH" pathname="啤酒|黄酒|养生酒" <a target="_blank" href="#">啤酒</a>/<a target="_blank"
+									href="#">黄酒</a>/<a target="_blank" href="#">养生酒</a></h3>
+							<div class="categoryCon">
+								<p>
+									<a href="#" target="_blank" class="on">埃丝伯爵</a>
+									<a href="#" target="_blank" class="on">青岛</a>
+									<a href="#" target="_blank" class="on">1664</a>
+									<a href="#" target="_blank" class="on">古越龙山</a>
+								</p>
+								<p>
+									<a href="#" target="_blank">劲牌</a>
+									<a href="#" target="_blank">猎鹰</a>
+									<a href="#" target="_blank">狮虎争霸</a>
+								</p>
+							</div>
+						</div>
+					</li>
+
+					<li class="catItem bg last" id="_nowactstr6">
+						<div class="catItemCon" name="__home_fenleishi">
+							<h3 name="tagH" pathname="食尚" <a target="_blank" href="#">食尚</a></h3>
+							<div class="categoryCon">
+								<p>
+									<a href="#" target="_blank">茶叶</a>
+									<a href="#" target="_blank">西湖龙井</a>
+									<a href="#" target="_blank" class="on">茶/茶具</a>
+								</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+				</ul>
+			</div>
+			<ul class="lb">
+				<li class="ts"><a href="#">首页</a></li>
+				<li><a href="#">领劵中心</a></li>
+				<li><a href="#">文化酒鬼酒</a></li>
+				<li><a href="#">值得买</a></li>
+				<li><a href="#">酒仙甄选</a></li>
+				<li><a href="#">葡萄酒馆</a></li>
+				<li><a href="#">洋酒馆</a></li>
+				<li><a href="#">新品</a></li>
+				<li><a href="#">CLUB</a></li>
+			</ul>
+
+			<div class="menuBox ">
+				<!-- 右侧文字 start -->
+				<div class="menuCon">
+					<div class="menuItem first clearfix">
+						<div class="menuItemTitle">
+							<h4>特色会场</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a href="#" target="_blank">整箱购</a>
+									<a href="#" target="_blank">精品酒铺</a>
+									<a href="#" target="_blank">家乡名酒</a>
+									<a href="#" target="_blank">年份老酒</a>
+									<a href="#" target="_blank">实惠大坛</a>
+									<a href="#" target="_blank">有礼有面</a>
+									<a href="#" target="_blank">海外直采</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="menuItem  clearfix">
+						<div class="menuItemTitle">
+							<h4>精选会场</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a class="hot" href="#" target="_blank">新品尝鲜</a>
+									<a href="#" target="_blank">清仓特卖</a>
+									<a href="#" target="_blank">值得买</a>
+									<a class="hot" href="#" target="_blank">名优白酒</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="menuItem  clearfix">
+						<div class="menuItemTitle">
+							<h4>企业用酒</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a href="#" target="_blank">商务用酒</a>
+									<a href="#" target="_blank">员工福利</a>
+									<a href="#" target="_blank">聚餐用酒</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="menuItem  clearfix">
+						<div class="menuItemTitle">
+							<h4>红洋酒专区</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a href="#">洋酒疯抢</a>
+									<a class="hot" href="#" target="_blank">整箱特惠</a>
+									<a href="#=11" target="_blank">高分推荐</a>
+									<a href="#" target="_blank">送礼优选</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="menuItem  clearfix">
+						<div class="menuItemTitle">
+							<h4>名庄推荐</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a href="#" target="_blank">名庄名窖</a>
+									<a class="hot" href="#" target="_blank">名庄特卖</a>
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="menuHeight clearfix">
+						<div class="menuItemTitle"></div>
+						<div class="menuItemCon">
+							<div class="menuCon-list" style="height: 229px;"></div>
+						</div>
+					</div>
+				</div>
+				<!-- 右侧文字 end -->
+				<!-- 右侧广告位 start -->
+				<div class="menuFoc">
+					<a href="#" target="_blank"><img title="" alt="" src="#" width="220" height="470">
+					</a>
+				</div>
+				<!-- 右侧广告位 end -->
+			</div>
+
+			<div class="menuBox " style="display: none;">
+				<!-- 右侧文字 start -->
+				<div class="menuCon">
+					<div class="menuItem first clearfix">
+						<div class="menuItemTitle">
+							<h4>特色会场</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a href="#" target="_blank">整箱购</a>
+									<a href="#" target="_blank">精品酒铺</a>
+									<a href="#" target="_blank">家乡名酒</a>
+									<a href="#" target="_blank">年份老酒</a>
+									<a href="#" target="_blank">实惠大坛</a>
+									<a href="#" target="_blank">有礼有面</a>
+									<a href="#" target="_blank">海外直采</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="menuItem  clearfix">
+						<div class="menuItemTitle">
+							<h4>精选会场</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a class="hot" href="#" target="_blank">新品尝鲜</a>
+									<a href="#" target="_blank">清仓特卖</a>
+									<a href="#" target="_blank">值得买</a>
+									<a class="hot" href="#" target="_blank">名优白酒</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="menuItem  clearfix">
+						<div class="menuItemTitle">
+							<h4>企业用酒</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a href="#" target="_blank">商务用酒</a>
+									<a href="#" target="_blank">员工福利</a>
+									<a href="#" target="_blank">聚餐用酒</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="menuItem  clearfix">
+						<div class="menuItemTitle">
+							<h4>红洋酒专区</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a href="#">洋酒疯抢</a>
+									<a class="hot" href="#" target="_blank">整箱特惠</a>
+									<a href="#=11" target="_blank">高分推荐</a>
+									<a href="#" target="_blank">送礼优选</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="menuItem  clearfix">
+						<div class="menuItemTitle">
+							<h4>名庄推荐</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a href="#" target="_blank">名庄名窖</a>
+									<a class="hot" href="#" target="_blank">名庄特卖</a>
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="menuHeight clearfix">
+						<div class="menuItemTitle"></div>
+						<div class="menuItemCon">
+							<div class="menuCon-list" style="height: 229px;"></div>
+						</div>
+					</div>
+				</div>
+				<!-- 右侧文字 end -->
+				<!-- 右侧广告位 start -->
+				<div class="menuFoc">
+					<a href="#" target="_blank"><img title="" alt="" src="#" width="220" height="470">
+					</a>
+				</div>
+				<!-- 右侧广告位 end -->
+			</div>
+
+			<div class="menuBox " style="display: none;">
+				<!-- 右侧文字 start -->
+				<div class="menuCon">
+					<div class="menuItem first clearfix">
+						<div class="menuItemTitle">
+							<h4>特色会场</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a href="#" target="_blank">整箱购</a>
+									<a href="#" target="_blank">精品酒铺</a>
+									<a href="#" target="_blank">家乡名酒</a>
+									<a href="#" target="_blank">年份老酒</a>
+									<a href="#" target="_blank">实惠大坛</a>
+									<a href="#" target="_blank">有礼有面</a>
+									<a href="#" target="_blank">海外直采</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="menuItem  clearfix">
+						<div class="menuItemTitle">
+							<h4>精选会场</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a class="hot" href="#" target="_blank">新品尝鲜</a>
+									<a href="#" target="_blank">清仓特卖</a>
+									<a href="#" target="_blank">值得买</a>
+									<a class="hot" href="#" target="_blank">名优白酒</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="menuItem  clearfix">
+						<div class="menuItemTitle">
+							<h4>企业用酒</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a href="#" target="_blank">商务用酒</a>
+									<a href="#" target="_blank">员工福利</a>
+									<a href="#" target="_blank">聚餐用酒</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="menuItem  clearfix">
+						<div class="menuItemTitle">
+							<h4>红洋酒专区</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a href="#">洋酒疯抢</a>
+									<a class="hot" href="#" target="_blank">整箱特惠</a>
+									<a href="#=11" target="_blank">高分推荐</a>
+									<a href="#" target="_blank">送礼优选</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="menuItem  clearfix">
+						<div class="menuItemTitle">
+							<h4>名庄推荐</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a href="#" target="_blank">名庄名窖</a>
+									<a class="hot" href="#" target="_blank">名庄特卖</a>
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="menuHeight clearfix">
+						<div class="menuItemTitle"></div>
+						<div class="menuItemCon">
+							<div class="menuCon-list" style="height: 229px;"></div>
+						</div>
+					</div>
+				</div>
+				<!-- 右侧文字 end -->
+				<!-- 右侧广告位 start -->
+				<div class="menuFoc">
+					<a href="#" target="_blank"><img title="" alt="" src="#" width="220" height="470">
+					</a>
+				</div>
+				<!-- 右侧广告位 end -->
+			</div>
+
+			<div class="menuBox" style="display: none;">
+				<!-- 右侧文字 start -->
+				<div class="menuCon">
+					<div class="menuItem first clearfix">
+						<div class="menuItemTitle">
+							<h4>特色会场</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a href="#" target="_blank">整箱购</a>
+									<a href="#" target="_blank">精品酒铺</a>
+									<a href="#" target="_blank">家乡名酒</a>
+									<a href="#" target="_blank">年份老酒</a>
+									<a href="#" target="_blank">实惠大坛</a>
+									<a href="#" target="_blank">有礼有面</a>
+									<a href="#" target="_blank">海外直采</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="menuItem  clearfix">
+						<div class="menuItemTitle">
+							<h4>精选会场</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a class="hot" href="#" target="_blank">新品尝鲜</a>
+									<a href="#" target="_blank">清仓特卖</a>
+									<a href="#" target="_blank">值得买</a>
+									<a class="hot" href="#" target="_blank">名优白酒</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="menuItem  clearfix">
+						<div class="menuItemTitle">
+							<h4>企业用酒</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a href="#" target="_blank">商务用酒</a>
+									<a href="#" target="_blank">员工福利</a>
+									<a href="#" target="_blank">聚餐用酒</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="menuItem  clearfix">
+						<div class="menuItemTitle">
+							<h4>红洋酒专区</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a href="#">洋酒疯抢</a>
+									<a class="hot" href="#" target="_blank">整箱特惠</a>
+									<a href="#=11" target="_blank">高分推荐</a>
+									<a href="#" target="_blank">送礼优选</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="menuItem  clearfix">
+						<div class="menuItemTitle">
+							<h4>名庄推荐</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a href="#" target="_blank">名庄名窖</a>
+									<a class="hot" href="#" target="_blank">名庄特卖</a>
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="menuHeight clearfix">
+						<div class="menuItemTitle"></div>
+						<div class="menuItemCon">
+							<div class="menuCon-list" style="height: 229px;"></div>
+						</div>
+					</div>
+				</div>
+				<!-- 右侧文字 end -->
+				<!-- 右侧广告位 start -->
+				<div class="menuFoc">
+					<a href="#" target="_blank"><img title="" alt="" src="#" width="220" height="470">
+					</a>
+				</div>
+				<!-- 右侧广告位 end -->
+			</div>
+			<!--lb三级列表开始-->
+			<div class="menuBox" style="display: none;">
+				<!-- 右侧文字 start -->
+				<div class="menuCon">
+					<div class="menuItem first clearfix">
+						<div class="menuItemTitle">
+							<h4>特色会场</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a href="#" target="_blank">整箱购</a>
+									<a href="#" target="_blank">精品酒铺</a>
+									<a href="#" target="_blank">家乡名酒</a>
+									<a href="#" target="_blank">年份老酒</a>
+									<a href="#" target="_blank">实惠大坛</a>
+									<a href="#" target="_blank">有礼有面</a>
+									<a href="#" target="_blank">海外直采</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="menuItem  clearfix">
+						<div class="menuItemTitle">
+							<h4>精选会场</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a class="hot" href="#" target="_blank">新品尝鲜</a>
+									<a href="#" target="_blank">清仓特卖</a>
+									<a href="#" target="_blank">值得买</a>
+									<a class="hot" href="#" target="_blank">名优白酒</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="menuItem  clearfix">
+						<div class="menuItemTitle">
+							<h4>企业用酒</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a href="#" target="_blank">商务用酒</a>
+									<a href="#" target="_blank">员工福利</a>
+									<a href="#" target="_blank">聚餐用酒</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="menuItem  clearfix">
+						<div class="menuItemTitle">
+							<h4>红洋酒专区</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a href="#">洋酒疯抢</a>
+									<a class="hot" href="#" target="_blank">整箱特惠</a>
+									<a href="#=11" target="_blank">高分推荐</a>
+									<a href="#" target="_blank">送礼优选</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="menuItem  clearfix">
+						<div class="menuItemTitle">
+							<h4>名庄推荐</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a href="#" target="_blank">名庄名窖</a>
+									<a class="hot" href="#" target="_blank">名庄特卖</a>
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="menuHeight clearfix">
+						<div class="menuItemTitle"></div>
+						<div class="menuItemCon">
+							<div class="menuCon-list" style="height: 229px;"></div>
+						</div>
+					</div>
+				</div>
+				<!-- 右侧文字 end -->
+				<!-- 右侧广告位 start -->
+				<div class="menuFoc">
+					<a href="#" target="_blank"><img title="" alt="" src="#" width="220" height="470">
+					</a>
+				</div>
+				<!-- 右侧广告位 end -->
+			</div>
+
+			<div class="menuBox" style="display: none;">
+				<!-- 右侧文字 start -->
+				<div class="menuCon">
+					<div class="menuItem first clearfix">
+						<div class="menuItemTitle">
+							<h4>特色会场</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a href="#" target="_blank">整箱购</a>
+									<a href="#" target="_blank">精品酒铺</a>
+									<a href="#" target="_blank">家乡名酒</a>
+									<a href="#" target="_blank">年份老酒</a>
+									<a href="#" target="_blank">实惠大坛</a>
+									<a href="#" target="_blank">有礼有面</a>
+									<a href="#" target="_blank">海外直采</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="menuItem  clearfix">
+						<div class="menuItemTitle">
+							<h4>精选会场</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a class="hot" href="#" target="_blank">新品尝鲜</a>
+									<a href="#" target="_blank">清仓特卖</a>
+									<a href="#" target="_blank">值得买</a>
+									<a class="hot" href="#" target="_blank">名优白酒</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="menuItem  clearfix">
+						<div class="menuItemTitle">
+							<h4>企业用酒</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a href="#" target="_blank">商务用酒</a>
+									<a href="#" target="_blank">员工福利</a>
+									<a href="#" target="_blank">聚餐用酒</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="menuItem  clearfix">
+						<div class="menuItemTitle">
+							<h4>红洋酒专区</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a href="#">洋酒疯抢</a>
+									<a class="hot" href="#" target="_blank">整箱特惠</a>
+									<a href="#=11" target="_blank">高分推荐</a>
+									<a href="#" target="_blank">送礼优选</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="menuItem  clearfix">
+						<div class="menuItemTitle">
+							<h4>名庄推荐</h4>
+						</div>
+						<div class="menuItemCon">
+							<div class="menuCon-list">
+								<p class="clearfix">
+									<a href="#" target="_blank">名庄名窖</a>
+									<a class="hot" href="#" target="_blank">名庄特卖</a>
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="menuHeight clearfix">
+						<div class="menuItemTitle"></div>
+						<div class="menuItemCon">
+							<div class="menuCon-list" style="height: 229px;"></div>
+						</div>
+					</div>
+				</div>
+				<!-- 右侧文字 end -->
+				<!-- 右侧广告位 start -->
+				<div class="menuFoc">
+					<a href="#" target="_blank"><img title="" alt="" src="#" width="220" height="470">
+					</a>
+				</div>
+				<!-- 右侧广告位 end -->
+			</div>
+		</div>
+	</div>
+
+	<!--lb三级列表结束-->
+
+
+
+	<!--详情开始-->
+	<div class="w1200">
+		<div class="Tu">
+			<a href="#"><img src="img/xqy1.jpg" /></a>
+		</div>
+		<!--大图结束-->
+
+		<div class="yemian">
+			<a target="_self" href="index.html">首页</a><i>&gt;</i><a href="#" target="_self">白酒</a><i>&gt;</i>
+			<a href="#" target="_self">酒鬼</a>
+			<i>&gt;</i><span class="d-cur">52°酒鬼原浆酒500ml（6瓶装）</span>
+		</div>
+		<!--跳转首页结束-->
+		<div class="Box">
+			<div id="box">
+				<div id="zbox">
+					<!--<img src="img/fdj1.jpg"/>-->
+					<div id="xbox"></div>
+				</div>
+				<div id="dbox">
+					<img src="img/fdj1.jpg" />
+				</div>
+			</div>
+		</div>
+
+
+		<!--放大镜结束-->
+
+		<div class="xqyRight">
+			<!--<p class="name">【199减120】良品铺子 鸡蛋干 酱香味 麻辣味 口感嫩滑 休闲零食 238g 酱香味</p>
+				<p class="jianjie">一号店出品，号好……</p>
+				<p class="jiage">￥21.8</p>
+				<p class="pingfen">评分:5</p>
+				<input class="submit" type="button" value="加入购物车">-->
+		</div>
+	</div>
+
+
+	<script type="text/javascript">
+		new BOX();
+		function BOX() {
+			function $id(id) {
+				return document.getElementById(id)
+			}
+			this.aBox = $id("box");
+			this.zBox = $id("zbox");
+			this.zimg = this.zBox.children[0];
+			this.xBox = $id("xbox");
+			this.dBox = $id("dbox");
+			this.dimg = this.dBox.children[0];
+			console.log(this.dBox.children[0]);
+			this.zBox.onmouseover = () => {
+				this.xBox.style.display = "block";
+				this.dBox.style.display = "block";
+			}
+			this.zBox.onmouseout = () => {
+				this.xBox.style.display = "none";
+				this.dBox.style.display = "none"
+			}
+			this.zBox.onmousemove = (e) => {
+				var evt = e || event;
+				var x = evt.pageX - this.aBox.offsetLeft - this.xBox.offsetWidth / 2;
+				var y = evt.pageY - this.aBox.offsetTop - this.xBox.offsetHeight / 2;
+				var malx = this.zBox.offsetWidth - this.xBox.offsetWidth;
+				var maly = this.zBox.offsetHeight - this.xBox.offsetHeight;
+				x <= 0 ? 0 : x >= malx ? malx : 0;
+				y <= 0 ? 0 : y >= maly ? maly : 0;
+				this.xBox.style.left = x + "px";
+				this.xBox.style.top = y + "px";
+				console.log(this.xBox.style.left, this.xBox.style.top)
+				this.dimg.style.left = -x * (this.dimg.offsetWidth / this.zBox.offsetWidth) + "px";
+				this.dimg.style.top = -y * (this.dimg.offsetHeight / this.zBox.offsetHeight) + "px";
+				console.log(this.dimg.style.left)
+			}
+		}
+	</script>
+</body>
+
+</html>

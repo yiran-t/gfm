@@ -1,0 +1,126 @@
+{
+  "data1": [
+    {
+      "id": "1",
+      "imgSrc": "img/shop/1.jpg",
+      "price": "149",
+      "title": "52°洋河蓝色经典"
+    },
+    {
+      "id": "2",
+      "imgSrc": "img/shop/1.jpg",
+      "price": "149",
+      "title": "52°洋河蓝色经典"
+    },
+    {
+      "id": "3",
+      "imgSrc": "img/shop/1.jpg",
+      "price": "149",
+      "title": "52°洋河蓝色经典"
+    },
+    {
+      "id": "4",
+      "imgSrc": "img/shop/1.jpg",
+      "price": "149",
+      "title": "52°洋河蓝色经典"
+    },
+    {
+      "id": "5",
+      "imgSrc": "img/shop/1.jpg",
+      "price": "149",
+      "title": "52°洋河蓝色经典"
+    },
+    {
+      "id": "6",
+      "imgSrc": "img/shop/1.jpg",
+      "price": "149",
+      "title": "52°洋河蓝色经典"
+    },
+    {
+      "id": "7",
+      "imgSrc": "img/shop/1.jpg",
+      "price": "149",
+      "title": "52°洋河蓝色经典"
+    },
+    {
+      "id": "8",
+      "imgSrc": "img/shop/1.jpg",
+      "price": "149",
+      "title": "52°洋河蓝色经典"
+    },
+    {
+      "id": "9",
+      "imgSrc": "img/shop/1.jpg",
+      "price": "149",
+      "title": "52°洋河蓝色经典"
+    },
+    {
+      "id": "10",
+      "imgSrc": "img/shop/1.jpg",
+      "price": "149",
+      "title": "52°洋河蓝色经典"
+    }
+  ],
+  "data2": [
+    {
+      "id": "1",
+      "imgSrc": "img/shop/2.jpg",
+      "price": "50",
+      "title": "52°白水杜康"
+    },
+    {
+      "id": "2",
+      "imgSrc": "img/shop/2.jpg",
+      "price": "50",
+      "title": "52°白水杜康"
+    },
+    {
+      "id": "3",
+      "imgSrc": "img/shop/2.jpg",
+      "price": "50",
+      "title": "52°白水杜康"
+    },
+    {
+      "id": "4",
+      "imgSrc": "img/shop/2.jpg",
+      "price": "50",
+      "title": "52°白水杜康"
+    },
+    {
+      "id": "5",
+      "imgSrc": "img/shop/2.jpg",
+      "price": "50",
+      "title": "52°白水杜康"
+    },
+    {
+      "id": "6",
+      "imgSrc": "img/shop/2.jpg",
+      "price": "50",
+      "title": "52°白水杜康"
+    },
+    {
+      "id": "7",
+      "imgSrc": "img/shop/2.jpg",
+      "price": "50",
+      "title": "52°白水杜康"
+    },
+    {
+      "id": "8",
+      "imgSrc": "img/shop/2.jpg",
+      "price": "50",
+      "title": "52°白水杜康"
+    },
+    {
+      "id": "9",
+      "imgSrc": "img/shop/2.jpg",
+      "price": "50",
+      "title": "52°白水杜康"
+    },
+    {
+      "id": "10",
+      "imgSrc": "img/shop/2.jpg",
+      "price": "50",
+      "title": "52°白水杜康"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>购物车列表</title>
+  <script src="./js/jquery-1.11.0.js"></script>
+  <style type="text/css">
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <div><input type="checkbox" id="checkAll" /></div>
+  <ul id="cartList"></ul>
+  <div id="totalPrice">0</div>
+  <a href="cart.html">购物车</a>
+  <script src="js/cookie.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/cart.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    var cart = new Cart();
+    cart.showData("cartList");
+  </script>
+</body>
+
+</html>

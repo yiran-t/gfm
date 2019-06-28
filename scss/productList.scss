@@ -1,0 +1,390 @@
+a {
+    text-decoration: none
+}
+
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+#MCon {
+    width: 1200px;
+    height: 600px;
+    // background: #9acd32;
+    margin: 20px auto;
+    background: #fad2d2;
+    // opacity: 0.6;
+    // z-index: -10;
+
+    // .brand  开始
+    .brand {
+        height: 130px;
+        // background: salmon;
+
+        .left {
+            width: 114px;
+            height: 130px;
+            // background: blueviolet;
+            text-align: center;
+            line-height: 100px;
+            float: left;
+        }
+
+        .right {
+            float: right;
+            height: 130px;
+            width: 1086px;
+
+            .letter {
+                height: 30px;
+                width: 300px;
+                // background: olivedrab;
+
+                li {
+                    line-height: 30px;
+                    width: 70px;
+                    text-align: center;
+                    color: blue;
+                    // border-right: 1px solid #000000;
+                    float: left;
+                }
+            }
+
+            .brandList {
+                height: 90px;
+                width: 800px;
+                // background: paleturquoise;
+
+                li {
+                    padding: 10px;
+                    width: 120px;
+                    height: 30px;
+                    // background: gold;
+                    text-align: center;
+                    float: left;
+                    margin: 0px 6px;
+
+                }
+            }
+        }
+    }
+
+    // .brand  结束
+
+    // .area  开始
+
+
+    // .area  结束  
+    .area {
+        width: 1200px;
+        height: 100px;
+        // background: yellow;
+
+        .left2 {
+            width: 115px;
+            height: 100px;
+            line-height: 60px;
+            text-align: center;
+            float: left;
+            // background: red;
+        }
+
+        .right2 {
+            width: 1085px;
+            height: 100px;
+            float: right;
+            // background: blue;
+
+            .areaList {
+                width: 1080px;
+                height: 100px;
+
+                li {
+                    float: left;
+                    margin-top: 10px;
+                }
+
+                a {
+                    // border: 1px solid #ccc;
+                    margin: 10px 14px;
+                    font-size: 14px;
+                    color: #000;
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+
+    // .area  结束
+
+    // .type  开始
+    .type {
+        width: 1200px;
+        height: 100px;
+        // background: yellow;
+
+        .left3 {
+            width: 115px;
+            height: 100px;
+            line-height: 60px;
+            text-align: center;
+            float: left;
+            // background: red;
+        }
+
+        .right3 {
+            width: 1085px;
+            height: 100px;
+            float: right;
+            // background: blue;
+
+            .typeList {
+                width: 1080px;
+                height: 100px;
+
+                li {
+                    float: left;
+                    margin-top: 10px;
+                }
+
+                a {
+                    // border: 1px solid #ccc;
+                    margin: 10px 14px;
+                    font-size: 14px;
+                    color: #000;
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+
+    //.type   结束
+
+    // .more  开始
+    .more {
+        width: 1200px;
+        height: 100px;
+        // background: yellow;
+
+        .left4 {
+            width: 115px;
+            height: 100px;
+            line-height: 60px;
+            text-align: center;
+            float: left;
+            // background: pink;
+        }
+
+        .right4 {
+            width: 1085px;
+            height: 100px;
+            float: right;
+
+            //  top  酒精度  净含量  价格
+            .r4_top {
+                width: 1086px;
+                height: 30px;
+                // background: red;
+                padding-top: 10px;
+
+                li {
+                    float: left;
+                    // background: pink;
+                    width: 100px;
+                    height: 30px;
+                }
+            }
+        }
+
+        // 三个ul   消失  隐藏 
+        .jiu {
+            width: 1080px;
+            height: 60px;
+            // background: yellow;
+            display: none;
+
+            .jiuList {
+                width: 600px;
+                height: 60px;
+                // background: green;
+
+
+                li {
+                    width: 100px;
+                    height: 60px;
+                    float: left;
+                    line-height: 60px;
+                    text-align: center;
+
+                    a {
+                        color: #000;
+                        opacity: 0.7;
+                    }
+                }
+
+            }
+
+        }
+
+        .liang {
+            width: 1080px;
+            height: 60px;
+            // background: yellow;
+            display: none;
+
+            .liangList {
+                width: 600px;
+                height: 60px;
+                // background: green;
+
+
+                li {
+                    width: 100px;
+                    height: 60px;
+                    float: left;
+                    line-height: 60px;
+                    text-align: center;
+
+                    a {
+                        color: #000;
+                        opacity: 0.7;
+                    }
+                }
+
+            }
+
+        }
+
+        #price {
+            width: 1080px;
+            height: 60px;
+            // background: yellow;
+            display: none;
+
+            .priceList {
+                width: 600px;
+                height: 60px;
+                // background: green;
+
+
+                li {
+                    width: 100px;
+                    height: 60px;
+                    float: left;
+                    line-height: 60px;
+                    text-align: center;
+
+                    a {
+                        color: #000;
+                        opacity: 0.7;
+                    }
+                }
+
+            }
+
+        }
+
+        // .r4_top li:nth-child(1):hover .jiuList {
+        //     display: block;
+        // }
+
+
+        // right4 end
+    }
+
+    // .more  结束
+
+}
+
+// MCon  结束
+
+// 第二部分 商品获取   开始
+
+#wrap {
+    width: 1200px;
+    // background: #000000;
+    margin: 40px auto;
+
+
+    .pListUl {
+        width: 100%;
+        height: 1768px;
+        // background: yellow;
+
+        li {
+            width: 20%;
+            height: 440px;
+            // background: rebeccapurple;
+            float: left;
+            // border: 1px solid red;
+
+            img {
+                width: 100%;
+                height: 290px;
+            }
+
+            .price {
+                color: #ae1027;
+                font-size: 20px;
+                padding-left: 16px;
+            }
+
+            .title {
+                color: #323232;
+                font-size: 12px;
+                padding-left: 16px;
+            }
+
+            .box {
+                width: 100%;
+                // background: pink;
+                height: 40px;
+                padding-left: 16px;
+
+                span {
+                    width: 10%;
+                    font-size: 20px;
+                    // padding-left: 10px;
+                    // line-height: 40px;
+                    // height: 40px;
+                    // border: 1px solid #ccc;
+
+                }
+
+                .numIpt {
+                    width: 20%;
+                    font-size: 20px;
+                    // margin-left: 16px;
+                    // line-height: 40px;
+                    height: 26px;
+                    border: 1px solid #ccc;
+                    text-align: center;
+                }
+
+                button {
+                    float: right;
+                    width: 36%;
+                    height: 26px;
+                    margin-right: 12px;
+                }
+            }
+        }
+    }
+}
+
+// 第二部分 商品获取   结束
